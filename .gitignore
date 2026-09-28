@@ -1,0 +1,55 @@
+# ============================================================
+# STM32 / CMake: archivos generados durante la compilación
+# ============================================================
+
+build/
+Build/
+Debug/
+Release/
+cmake-build-*/
+
+*.o
+*.obj
+*.d
+*.dep
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.size
+
+# ============================================================
+# Archivos temporales
+# ============================================================
+
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# ============================================================
+# Sistema operativo
+# ============================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Archivos locales de VS Code
+# Se mantienen los JSON compartibles de .vscode/
+# ============================================================
+
+.vscode/*.json~
+.vscode/ipch/
+.vscode/.browse.VC.db*
+.vscode/*.log
+
+# ============================================================
+# STM32CubeIDE / Eclipse: archivos locales o de compilación
+# ============================================================
+
+.metadata/
+RemoteSystemsTempFiles/
